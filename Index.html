@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+    <title>Portfólio</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+
+        <header id="inicio">
+            <div class="img-wrapper">
+
+                <img src="img/img_Index.jpg" alt="">
+
+            </div>
+            <div class="banner">
+                <h1>ABAP Developer <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &
+                    <br>Front End Designer </h1>
+                <p>Jelson Alves Oliveira</p>
+                <button>Saiba Mais</button>
+            </div>
+        </header>
+
+        <div class="sidebar">
+            <nav>
+                <ul class="menu">
+                    <li class="menu-item">
+                        <a href="inicio" class="menu-link">Início</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="conhecimentos" class="menu-link">Conhecimentos</a>
+                    </li>
+                    <!--<li class="menu-item">
+                        <a href="#" class="menu-link">Projetos</a>
+                    </li>-->
+
+                    <li class="menu-item">
+                        <a href="contato" class="menu-link">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+        <section class="sessao-conhecimentos" id="conhecimentos">
+            <div class="sessao-header">
+                <h1>Conhecimentos</h1>
+            </div>
+            <div class="Conhecimentos">
+                <div class="Conhecimento">
+                    <div class="Conhecimento-header">
+                        <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" />
+                        <h3>HTML</h3>
+                    </div>
+
+                    <div class="Conhecimento-text">
+                        <p>
+                            <strong>O HTML (HyperText Markup Language) é um conjunto estruturado de instruções, conhecidas por etiquetas ou tags, que dizem a um browser como publicar uma página web, ou seja, o browser interpreta essas etiquetas
+                                e desenha a página no ecrã.</strong> </p>
+                    </div>
+                </div>
+                <div class="Conhecimento">
+                    <div class="Conhecimento-header">
+                        <img src="https://img.icons8.com/color/48/000000/css3.png" />
+                        <h3>CSS</h3>
+                    </div>
+
+                    <div class="Conhecimento-text">
+                        <p> <strong>CSS é utilizado para definir a apresentação (aparência) em páginas da internet que adotam para o seu desenvolvimento linguagens de marcação (como XML, HTML e XHTML). O CSS define como serão exibidos os elementos
+                            contidos no código de uma página da internet e sua maior vantagem é efetuar a separação entre o formato e o conteúdo de um documento.</strong> </p>
+                    </div>
+                </div>
+                <div class="Conhecimento">
+                    <div class="Conhecimento-header">
+                        <img src="https://img.icons8.com/ios-glyphs/60/000000/github.png" />
+                        <h3>Git/GitHub</h3>
+                    </div>
+
+                    <div class="Conhecimento-text">
+                        <p>
+                            <strong>O GitHub é um site que abriga um software de controle de versão de desenvolvimento através do sistema Git.<br>Através desse sistema, duas ou mais pessoas podem editar arquivos existentes ou criar novos sem arriscar que suas alterações sejam apagadas pelas modificações de outros membros da equipe. Isso é útil para os mais diferentes tipos de projetos</strong></p>
+                    </div>
+                </div>
+                <div class="Conhecimento">
+                    <div class="Conhecimento-header">
+                        <img src="https://img.icons8.com/color/65/4a90e2/sap.png" />
+                        <h3>ABAP</h3>
+                    </div>
+
+                    <div class="Conhecimento-text">
+                        <p>
+                            <strong>ABAP é uma linguagem de programação de alto nível desenvolvida pela empresa de software SAP. É a principal linguagem utilizada no produto mais conhecido desta empresa, o SAP R/3, um software ERP.</strong></p>
+                    </div>
+                </div>
+                <div class="Conhecimento">
+                    <div class="Conhecimento-header">
+                        <img src="img/icons8-mysql-logo-75.png">
+                        <h3>MySQL</h3>
+                    </div>
+
+                    <div class="Conhecimento-text">
+                        <p>
+                            <strong>O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. É atualmente um dos sistemas de gerenciamento de bancos de dados mais populares da Oracle Corporation.</strong></p>
+                    </div>
+                </div>
+                <div class="conhecimentos-img-wrapper">
+                    <img src="img/img_conhecimento.png" alt="">
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="sessao-contato" id="contato">
+            <div class="contato-wrapper">
+                <div class="contato-left"></div>
+                <div class="contato-right">
+                    <h1>Contato</h1>
+                    <form>
+                        <div class="input-group">
+                            <input type="text" class="field" id="nome">
+                            <label for="nome" class=" field-label ">Nome</label>
+                        </div>
+                        <div class="input-group ">
+                            <input type="text " class="field " id="email">
+                            <label for="email" class=" field-label ">E-mail</label>
+                        </div>
+                        <div class="input-group ">
+                            <textarea class="field " id="mensagem"></textarea>
+                            <label for="mensagem" class="field-label ">Mensagem</label>
+                        </div>
+                        <button type="submit" class="btn-enviar">Enviar</button>
+                    </form>
+                </div>
+            </div>
+
+        </section>
+        <footer>
+            <div class="footer-content">
+                <p>Copyright &copy; 2021, Jelson Alves - Todos os direitos reservados</p>
+                <div class="social-list">
+                    <ul>
+                        <li>
+                            <a href="https://www.linkedin.com/in/jelsonalves/"><img src="img/linkedin_icon-icons.com_66096.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/jbinario/"><img src="img/icone-git.png" alt="">
+                            </a>
+                        </li>
+
+
+                        <li>
+                            <a href="https://www.facebook.com/jelson.alves.7"><img src="img/facebook_logo_icon_147291.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <a href="#inicio" id="link-topo">
+            <img src="img/icone-subir.png" alt="">
+        </a>
+
+
+
+    </div>
+</body>
+
+</html>
+</body>
+
+</html>
