@@ -1,9 +1,3 @@
-# Portfolio
-Meu portfólio
+<h1 align="center">Portfólio </h1> 
 
-##Icones
-
-:package: nova funcionalidade
-:up: atualização
-:beatle: correção de bug
-:checkered_flag: release
+<p align="justify"> Este portfólio tem como objetivo ajudar meu desenvolvimento com HTML,CSS e também mostrar novos projetos que estarei desenvolvendo.</p>
